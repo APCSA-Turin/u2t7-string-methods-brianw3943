@@ -1,7 +1,8 @@
+package U2T7_P2_MoreStringMethods; 
 import java.util.Scanner;
 
 
-public class Main {
+public class WarmUp {
    public static void main(String[] args) {
        int x = 6;
        int y = 6;

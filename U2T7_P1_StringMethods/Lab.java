@@ -28,6 +28,7 @@ public class Lab {
         } else {
             System.out.println(str2 + " is NOT found in " + str1);
         }
+        scan.close();
         
     }
 }
