@@ -42,8 +42,8 @@ public class CustomStringMethods {
   */
   public String halvesReversed(String myString) {
       String firstHalf = myString.substring(0, myString.length()/2);
-      String secondHalf = myString.substring(myString.length()/2, myString.length());
-      return secondHalf + "" + firstHalf;
+      String secondHalf = myString.substring(myString.length()/2);
+      return secondHalf + firstHalf;
   }
 }
 
