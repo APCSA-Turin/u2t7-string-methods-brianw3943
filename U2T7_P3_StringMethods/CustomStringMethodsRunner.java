@@ -4,40 +4,25 @@ public class CustomStringMethodsRunner {
     public static void main(String[] args) {
         CustomStringMethods methods = new CustomStringMethods();
 
-        // boolean bool = methods.longerThan("apple", 4);
-        // System.out.println(bool);
-        // bool = methods.longerThan("apple", 5);
-        // System.out.println(bool);
-        // bool = methods.longerThan("apple", 2);
-        // System.out.println(bool);
-        // bool = methods.longerThan("apple", 7);
-        // System.out.println(bool);
+        boolean bool = methods.longerThan("pear", 4);
+        System.out.println(bool);
+        String str1 = methods.funnyString("laptop", 3);
+        System.out.println(str1);
+        String str2 = methods.halvesReversed("skies");
+        System.out.println(str2);
+        String str3 = methods.pigLatin("desk");
+        System.out.println(str3);
+        String str4 = methods.removeCharacter("October", 5);
+        System.out.println(str4);
+        String str5 = methods.insertAt("ghost", "hi!", "o");
+        System.out.println(str5);
+        String str6 = methods.endUp("It's Wednesday", 3);
+        System.out.println(str6);
+        String str7 = methods.yellOrWhisper("Hello!");
+        System.out.println(str7);
+                                                
         
-        // String str = methods.funnyString("computer", 3);
-        // System.out.println(str);
-        // str = methods.funnyString("computer", 0);
-        // System.out.println(str);
-        // str = methods.funnyString("computer", 7);
-        // System.out.println(str);
-        // str = methods.funnyString("apples", 1);
-        // System.out.println(str);
-
-        String str = methods.halvesReversed("computer");  //even # of letters
-        System.out.println(str);
-        str = methods.halvesReversed("computers");        //odd # of letters
-        System.out.println(str);
-        str = methods.halvesReversed("sky");
-        System.out.println(str);
-        str = methods.halvesReversed("weekend");
-        System.out.println(str);
-        str = methods.halvesReversed("an");
-        System.out.println(str);
-        str = methods.halvesReversed("I");
-        System.out.println(str);
-        str = methods.halvesReversed("see you soon");
-        System.out.println(str);
-        str = methods.halvesReversed("see you later!");
-        System.out.println(str);
+        
 
     }
 }
